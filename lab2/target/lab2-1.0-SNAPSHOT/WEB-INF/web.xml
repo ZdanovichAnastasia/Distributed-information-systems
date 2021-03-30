@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+
+    <servlet>
+        <servlet-name>FilterByRating</servlet-name>
+        <servlet-class>WebFace.FilterByRatingServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>FilterByRating</servlet-name>
+        <url-pattern>/filterByRating</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ShowFilteredSerials</servlet-name>
+        <servlet-class>WebFace.ShowFilteredSerialsServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ShowFilteredSerials</servlet-name>
+        <url-pattern>/showFilteredSerials</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>Edit</servlet-name>
+        <servlet-class>WebFace.EditServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Edit</servlet-name>
+        <url-pattern>/edit</url-pattern>
+    </servlet-mapping>
+
+</web-app>
