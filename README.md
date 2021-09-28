@@ -34,7 +34,7 @@
 <!--comment-->
 + SpringXML, Spring Annotation
 <!--comment-->
-9 lab:
+9 lab(customerspring):
 <!--comment-->
 + Spring Framework.REST
 <!--comment-->
