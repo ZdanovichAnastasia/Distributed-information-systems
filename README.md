@@ -18,3 +18,23 @@
 <!--comment-->
 + Message Driven Beans
 <!--comment-->
+5 lab:
+<!--comment-->
++ JavaServer Faces
+<!--comment-->
+6 lab:
+<!--comment-->
++ RPC
+<!--comment-->
+7 lab:
+<!--comment-->
++ SOAP
+<!--comment-->
+8 lab:
+<!--comment-->
++ SpringXML, Spring Annotation
+<!--comment-->
+9 lab:
+<!--comment-->
++ Spring Framework.REST
+<!--comment-->
